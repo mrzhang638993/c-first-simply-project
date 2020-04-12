@@ -1,4 +1,4 @@
-#include "d3.h"
+#include "shuchu.h"
 int minus(int a,int b)
 {
 	return b-a;
