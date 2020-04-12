@@ -2,7 +2,7 @@
 #include <stdlib.h>
 //  引入c3.h文件
 #include "suanshu.h"
-#include "d3.h"
+#include "shuchu.h"
 
 int main(void)
 {
