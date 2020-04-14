@@ -1,19 +1,70 @@
-﻿生成启动时间为 2020/4/13 13:59:03。
-     1>项目“C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\多文件编程.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
+﻿生成启动时间为 2020/4/14 18:57:17。
+     1>项目“C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\多文件编程.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\多文件编程.lastbuildstate”。
+       InitializeBuildStatus:
          正在创建“Debug\多文件编程.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt cmain.c shuchu.c suanshu.c
-         suanshu.c
-         shuchu.c
-     1>c:\users\mrzhang\documents\visual studio 2010\projects\多文件编程\c-first-simply-project\suanshu.h(6): error C2011: “C3”:“struct”类型重定义
-                 c:\users\mrzhang\documents\visual studio 2010\projects\多文件编程\c-first-simply-project\suanshu.h(6) : 参见“C3”的声明
-         cmain.c
-     1>C:\\Users\\mrzhang\\Documents\\Visual Studio 2010\\Projects\\多文件编程\\c-first-simply-project\\suanshu.h(6): error C2011: “C3”:“struct”类型重定义
-                 C:\\Users\\mrzhang\\Documents\\Visual Studio 2010\\Projects\\多文件编程\\c-first-simply-project\\suanshu.h(6) : 参见“C3”的声明
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "const-pointer.c" "const-string.c" const.c lingxing.c random.c "randow-application.c" register.c scope.c "static全部变量.c" "static静态局部变量的作用域测试.c" "全局变量的定义和声明.c" "内存分区.c" "含参数的main.c" "测试全局变量.c"
+         测试全局变量.c
+         含参数的main.c
+         内存分区.c
+         全局变量的定义和声明.c
+         static静态局部变量的作用域测试.c
+         static全部变量.c
+         scope.c
+         register.c
+         randow-application.c
+         random.c
+         lingxing.c
+         const.c
+         const-string.c
+         const-pointer.c
          正在生成代码...
-     1>已完成生成项目“C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\多文件编程.vcxproj”(build 个目标)的操作 - 失败。
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\多文件编程.exe.embed.manifest.res" "Debug\多文件编程_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\多文件编程.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.lib" /MACHINE:X86 "Debug\多文件编程.exe.embed.manifest.res"
+         "Debug\const-pointer.obj"
+         "Debug\const-string.obj"
+         Debug\const.obj
+         Debug\lingxing.obj
+         Debug\random.obj
+         "Debug\randow-application.obj"
+         Debug\register.obj
+         Debug\scope.obj
+         "Debug\static全部变量.obj"
+         "Debug\static静态局部变量的作用域测试.obj"
+         "Debug\全局变量的定义和声明.obj"
+         "Debug\内存分区.obj"
+         "Debug\含参数的main.obj"
+         "Debug\测试全局变量.obj"
+       Manifest:
+         正在删除文件“Debug\多文件编程.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\多文件编程.exe.embed.manifest" /manifest "Debug\多文件编程.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\多文件编程.exe.embed.manifest.res" "Debug\多文件编程_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\多文件编程.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.lib" /MACHINE:X86 "Debug\多文件编程.exe.embed.manifest.res"
+         "Debug\const-pointer.obj"
+         "Debug\const-string.obj"
+         Debug\const.obj
+         Debug\lingxing.obj
+         Debug\random.obj
+         "Debug\randow-application.obj"
+         Debug\register.obj
+         Debug\scope.obj
+         "Debug\static全部变量.obj"
+         "Debug\static静态局部变量的作用域测试.obj"
+         "Debug\全局变量的定义和声明.obj"
+         "Debug\内存分区.obj"
+         "Debug\含参数的main.obj"
+         "Debug\测试全局变量.obj"
+         多文件编程.vcxproj -> C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\多文件编程.unsuccessfulbuild”。
+         正在对“Debug\多文件编程.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\多文件编程.vcxproj”(rebuild 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:00.49
+已用时间 00:00:01.34

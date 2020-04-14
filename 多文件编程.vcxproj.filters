@@ -15,21 +15,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cmain.c">
+    <ClCompile Include="全局变量的定义和声明.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="d3.c">
+    <ClCompile Include="测试全局变量.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="suanshu.c">
+    <ClCompile Include="scope.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="static全部变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="static静态局部变量的作用域测试.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="register.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const-pointer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="const-string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内存分区.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="含参数的main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="randow-application.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lingxing.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="d3.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="suanshu.h">
+    <ClInclude Include="scope.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

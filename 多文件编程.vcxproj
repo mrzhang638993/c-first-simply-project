@@ -82,13 +82,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="suanshu.c" />
-    <ClCompile Include="cmain.c" />
-    <ClCompile Include="shuchu.c" />
+    <ClCompile Include="const-pointer.c" />
+    <ClCompile Include="const-string.c" />
+    <ClCompile Include="const.c" />
+    <ClCompile Include="lingxing.c" />
+    <ClCompile Include="random.c" />
+    <ClCompile Include="randow-application.c" />
+    <ClCompile Include="register.c" />
+    <ClCompile Include="scope.c" />
+    <ClCompile Include="static全部变量.c" />
+    <ClCompile Include="static静态局部变量的作用域测试.c" />
+    <ClCompile Include="全局变量的定义和声明.c" />
+    <ClCompile Include="内存分区.c" />
+    <ClCompile Include="含参数的main.c" />
+    <ClCompile Include="测试全局变量.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shuchu.h" />
-    <ClInclude Include="suanshu.h" />
+    <ClInclude Include="scope.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
