@@ -57,6 +57,9 @@
     <ClCompile Include="lingxing.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="进制转换.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">

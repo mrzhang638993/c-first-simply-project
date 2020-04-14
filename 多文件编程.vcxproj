@@ -96,6 +96,7 @@
     <ClCompile Include="内存分区.c" />
     <ClCompile Include="含参数的main.c" />
     <ClCompile Include="测试全局变量.c" />
+    <ClCompile Include="进制转换.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h" />
