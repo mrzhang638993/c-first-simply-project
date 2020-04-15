@@ -78,6 +78,18 @@
     <ClCompile Include="fread-operation.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="struct-file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fputs-fgets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fgets-operation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fprints-fscanf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">

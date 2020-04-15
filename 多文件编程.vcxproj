@@ -85,10 +85,13 @@
     <ClCompile Include="const-pointer.c" />
     <ClCompile Include="const-string.c" />
     <ClCompile Include="const.c" />
+    <ClCompile Include="fgets-operation.c" />
     <ClCompile Include="file-operation-c.c" />
     <ClCompile Include="file-operation.c" />
     <ClCompile Include="fopen.c" />
     <ClCompile Include="fopen_s.c" />
+    <ClCompile Include="fprints-fscanf.c" />
+    <ClCompile Include="fputs-fgets.c" />
     <ClCompile Include="fread-operation.c" />
     <ClCompile Include="lingxing.c" />
     <ClCompile Include="random.c" />
@@ -97,6 +100,7 @@
     <ClCompile Include="scope.c" />
     <ClCompile Include="static全部变量.c" />
     <ClCompile Include="static静态局部变量的作用域测试.c" />
+    <ClCompile Include="struct-file.c" />
     <ClCompile Include="位字段使用.c" />
     <ClCompile Include="全局变量的定义和声明.c" />
     <ClCompile Include="内存分区.c" />
