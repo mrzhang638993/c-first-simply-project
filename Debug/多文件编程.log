@@ -1,15 +1,17 @@
-﻿生成启动时间为 2020/4/14 18:57:17。
+﻿生成启动时间为 2020/4/15 18:03:20。
      1>项目“C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\多文件编程.vcxproj”在节点 2 上(rebuild 个目标)。
      1>_PrepareForClean:
          正在删除文件“Debug\多文件编程.lastbuildstate”。
        InitializeBuildStatus:
-         正在创建“Debug\多文件编程.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“Debug\多文件编程.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "const-pointer.c" "const-string.c" const.c lingxing.c random.c "randow-application.c" register.c scope.c "static全部变量.c" "static静态局部变量的作用域测试.c" "全局变量的定义和声明.c" "内存分区.c" "含参数的main.c" "测试全局变量.c"
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "const-pointer.c" "const-string.c" const.c "file-operation-c.c" "file-operation.c" fopen.c fopen_s.c "fread-operation.c" lingxing.c random.c "randow-application.c" register.c scope.c "static全部变量.c" "static静态局部变量的作用域测试.c" "位字段使用.c" "全局变量的定义和声明.c" "内存分区.c" "含参数的main.c" "测试全局变量.c" "进制转换.c"
+         进制转换.c
          测试全局变量.c
          含参数的main.c
          内存分区.c
          全局变量的定义和声明.c
+         位字段使用.c
          static静态局部变量的作用域测试.c
          static全部变量.c
          scope.c
@@ -17,8 +19,15 @@
          randow-application.c
          random.c
          lingxing.c
+         fread-operation.c
+         fopen_s.c
+         fopen.c
+         file-operation.c
+         file-operation-c.c
          const.c
          const-string.c
+         正在生成代码...
+         正在编译...
          const-pointer.c
          正在生成代码...
        ManifestResourceCompile:
@@ -28,6 +37,11 @@
          "Debug\const-pointer.obj"
          "Debug\const-string.obj"
          Debug\const.obj
+         "Debug\file-operation-c.obj"
+         "Debug\file-operation.obj"
+         Debug\fopen.obj
+         Debug\fopen_s.obj
+         "Debug\fread-operation.obj"
          Debug\lingxing.obj
          Debug\random.obj
          "Debug\randow-application.obj"
@@ -35,10 +49,12 @@
          Debug\scope.obj
          "Debug\static全部变量.obj"
          "Debug\static静态局部变量的作用域测试.obj"
+         "Debug\位字段使用.obj"
          "Debug\全局变量的定义和声明.obj"
          "Debug\内存分区.obj"
          "Debug\含参数的main.obj"
          "Debug\测试全局变量.obj"
+         "Debug\进制转换.obj"
        Manifest:
          正在删除文件“Debug\多文件编程.exe.embed.manifest”。
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\多文件编程.exe.embed.manifest" /manifest "Debug\多文件编程.exe.intermediate.manifest"
@@ -48,6 +64,11 @@
          "Debug\const-pointer.obj"
          "Debug\const-string.obj"
          Debug\const.obj
+         "Debug\file-operation-c.obj"
+         "Debug\file-operation.obj"
+         Debug\fopen.obj
+         Debug\fopen_s.obj
+         "Debug\fread-operation.obj"
          Debug\lingxing.obj
          Debug\random.obj
          "Debug\randow-application.obj"
@@ -55,10 +76,12 @@
          Debug\scope.obj
          "Debug\static全部变量.obj"
          "Debug\static静态局部变量的作用域测试.obj"
+         "Debug\位字段使用.obj"
          "Debug\全局变量的定义和声明.obj"
          "Debug\内存分区.obj"
          "Debug\含参数的main.obj"
          "Debug\测试全局变量.obj"
+         "Debug\进制转换.obj"
          多文件编程.vcxproj -> C:\Users\mrzhang\Documents\Visual Studio 2010\Projects\多文件编程\c-first-simply-project\Debug\多文件编程.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\多文件编程.unsuccessfulbuild”。
@@ -67,4 +90,4 @@
 
 生成成功。
 
-已用时间 00:00:01.34
+已用时间 00:00:01.58

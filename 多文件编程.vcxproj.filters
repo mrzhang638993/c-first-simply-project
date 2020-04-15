@@ -60,6 +60,24 @@
     <ClCompile Include="进制转换.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="位字段使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fopen.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fopen_s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file-operation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file-operation-c.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fread-operation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scope.h">
